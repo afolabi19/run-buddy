@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -47,11 +48,22 @@ body {
   }
 
   footer {
-    padding: 20px 35px;
-  background-color: #39a6b2;
+    padding: 40px 35px;
+    width: 100%;
+    background-color: #fce138;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    
+
   }
 
   footer h2 {
-    font-weight: bold;
-    color: #fce138;
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
   }
