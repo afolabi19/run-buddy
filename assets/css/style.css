@@ -75,7 +75,7 @@ body {
 
  /* Hero Starts*/
   .hero {
-    background: url(hero-bg.jpeg);
+    background: url(hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
